@@ -1,0 +1,22 @@
+{
+  "name": "SwiftTesting",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftTesting.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pablo igounet/SwiftTesting",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pablo igounet": "pablo.igounet@mercadolibre.com"
+  },
+  "source": {
+    "git": "https://github.com/pablo igounet/SwiftTesting.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftTesting/Classes/**/*"
+}
