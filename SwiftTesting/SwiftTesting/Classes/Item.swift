@@ -7,6 +7,8 @@
 
 import UIKit
 
-class Item: NSObject {
-
+struct Item {
+    let name : String
+    let price : String
+    let description: String
 }
