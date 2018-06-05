@@ -8,20 +8,15 @@ DEPENDENCIES:
   - Quick (~> 1.2.0)
   - SwiftTesting (from `../`)
 
-SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
-    - Nimble
-    - Quick
-
 EXTERNAL SOURCES:
   SwiftTesting:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
   Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
   SwiftTesting: 69d30e372adfbc495acb2386a5cab7b4a5168aef
 
-PODFILE CHECKSUM: 43fd733eb329135a385450e32863f8c86d8d0459
+PODFILE CHECKSUM: 8298d78d9dbc02d4dc83bb49fccd36dd186b3584
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.4.0

@@ -1,12 +1,17 @@
 use_frameworks!
 
+def standard_pods
+    pod 'SwiftTesting', :path => '../'
+end
+
 target 'SwiftTesting_Example' do
-  pod 'SwiftTesting', :path => '../'
+  standard_pods
+end
 
-  target 'SwiftTesting_Tests' do
+target 'SwiftTesting_Tests' do
     inherit! :search_paths
-
+    
+    standard_pods
     pod 'Quick', '~> 1.2.0'
     pod 'Nimble', '~> 7.0.2'
-  end
 end
